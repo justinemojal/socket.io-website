@@ -35,6 +35,7 @@ npm install express@4.15.2
 ```
 
 Once it's installed we can create an `index.js` file that will set up our application.
+(Remember to use http.listen() and not app.listen()  )
 
 ```js
 var app = require('express')();
